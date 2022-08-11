@@ -1,12 +1,29 @@
-# Getting Started with Create React App
+# Atomix - Trial for Frontend Developers (React and TypeScript)
+### Focusing on: React and TypeScript skills
+
+## Introduction
+This is the second step in our trial for full-stack web developer role who have opted to go for the React path.\
+This trial will test you React and TypeScript skills additionally to the frontend skills tested in the [previous trial](https://github.com/atomixdesign/candidate-project-html-css).
+
+## Trial Instructions
+To complete this trial, you can use your existing HTML and CSS code from the previous trial to setup a React version of this [site design](https://xd.adobe.com/view/9b96df8b-7468-4806-9b66-1a0cd6e30fa4-cec5/). \
+Once that is completed, create a `data` folder and setup individual `.json` files for parts of the homepage content and dynamically fetch the JSON data to the React app.
+
+** Note: We would like to see your TypeScript knowledge as much as can.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+#### `yarn install`
+
+Installs the required packages from the `yarn.lock` file.
+
+#### `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -14,12 +31,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+#### `yarn test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+#### `yarn build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -29,18 +46,13 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## How to submit your work?
+Fork this repo and provide us with a pull request to view your work. You can also inform us by emailing to the person who contacted you in regard to the trial.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## How long do you have to complete this first trial?
+We recommend sending the completed pull request as soon as possible, but we would roughly estimate about a week to complete it. Please inform us if you have any concerns or clarifications with regards to the trial.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Other trials
+- [HTML, CSS/SCSS and JavaScript](https://github.com/atomixdesign/candidate-project-html-css)
+- [NextJS path](#)
+- [WordPress path](#)
