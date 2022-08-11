@@ -54,5 +54,5 @@ We recommend sending the completed pull request as soon as possible, but we woul
 
 ## Other trials
 - [HTML, CSS/SCSS and JavaScript](https://github.com/atomixdesign/candidate-project-html-css)
-- [NextJS path](#)
-- [WordPress path](#)
+- [NextJS path](https://github.com/atomixdesign/candidate-project-next)
+- [WordPress path](https://github.com/atomixdesign/candidate-project-wordpress)
