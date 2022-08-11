@@ -9,8 +9,8 @@
 /coverage
 
 # IDE
-.idea/
-.vscode/
+.idea/*
+.vscode/*
 
 # production
 /build
