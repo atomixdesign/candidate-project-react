@@ -9,7 +9,7 @@ This trial will test you React and TypeScript skills additionally to the fronten
 To complete this trial, you can use your existing HTML and CSS code from the previous trial to setup a React version of this [site design](https://xd.adobe.com/view/9b96df8b-7468-4806-9b66-1a0cd6e30fa4-cec5/). \
 Once that is completed, create a `data` folder and setup individual `.json` files for parts of the homepage content and dynamically fetch the JSON data to the React app.
 
-** Note: We would like to see your TypeScript knowledge as much as can.
+** Note: We would like to see your TypeScript knowledge as much as possible.
 
 ## Getting Started with Create React App
 
