@@ -1,0 +1,96 @@
+$primaryrgb: rgba(204, 174, 146, 1);
+$primary: #ccae92;
+.carousel-section {
+  height: 80vh;
+  background-color: #f7f7f7;
+  padding-bottom: 10Wh;
+  @media screen and (max-width: 767px) {
+    height: 100vh;
+  }
+  .carousel-sect-head {
+    padding-top: 5%;
+    text-align: center;
+    font-size: 34px;
+  }
+  .carousel {
+    margin-top: 8%;
+
+    .carousel-cell {
+      width: 100%;
+      background-color: #f7f7f7;
+
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center center;
+      @media screen and (max-width: 767px) {
+        padding-bottom: 5%;
+      }
+      .carousel-content {
+        padding-bottom: 5%;
+        display: flex;
+        margin-left: 15%;
+        margin-right: 15%;
+        flex-direction: row;
+        @media screen and (max-width: 767px) {
+          flex-direction: column;
+          margin-left: 8%;
+          margin-right: 7%;
+        }
+        .caorusel-image {
+          width: 100%;
+          img {
+            max-height: 50vh;
+          }
+        }
+        .c-item {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin-left: 5%;
+          @media screen and (max-width: 767px) {
+            margin-left: 0%;
+          }
+          .carousel-head {
+            @media screen and (max-width: 767px) {
+              text-align: center;
+            }
+          }
+          .carousel-text {
+            margin-top: 5%;
+          }
+          .carousel-button {
+            margin-top: 5%;
+
+            @media screen and (max-width: 767px) {
+              text-align: center;
+            }
+            button {
+              border: 1px solid transparent;
+              outline: 0;
+              display: inline-block;
+              padding: 10px 25px;
+              color: white;
+              background-color: #{$primary};
+              text-align: center;
+              cursor: pointer;
+
+              &:hover {
+                background-color: white;
+                color: #{$primary};
+                border: 1px solid #{$primary};
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.flickity-viewport {
+  height: 50vh !important;
+  background-color: #f7f7f7;
+  @media screen and (max-width: 767px) {
+    height: 80vh !important;
+  }
+}

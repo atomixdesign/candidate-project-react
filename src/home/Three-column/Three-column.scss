@@ -1,0 +1,41 @@
+$primaryrgb: rgba(204, 174, 146, 1);
+$primary: #ccae92;
+
+.three-column {
+  .tc-heading {
+    text-align: center;
+    padding-top: 5%;
+    font: normal normal bold 34px/50px Montserrat;
+  }
+  .tc-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: baseline;
+    @media screen and (max-width: 767px) {
+      flex-wrap: wrap;
+    }
+
+    .tc-column {
+      margin: 10px;
+      padding: 20px;
+      flex-basis: 33%;
+      flex-grow: 0;
+      flex-shrink: 0;
+      @media screen and (max-width: 767px) {
+        flex-basis: 100%;
+      }
+      .image-head {
+        font-size: 15px;
+        font-weight: 600;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
