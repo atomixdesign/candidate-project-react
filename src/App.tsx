@@ -1,24 +1,35 @@
-import React from 'react';
-import logo from './atomix.png';
-import './App.scss';
+import React, { useEffect } from "react";
+import logo from "./atomix.png";
+import "./App.scss";
+import Navbar from "./header/Navbar";
+import HomeBanner from "./home/banner/home-banner";
+import ThreeColumn from "./home/Three-column/Three-column";
+import Carousel from "./home/Carousel/Carousel";
+import Team from "./home/Team/Team";
+import Footer from "./Footer/Footer";
 
 function App() {
+  useEffect(() => {
+    const script = document.createElement("script");
+
+    script.src = "/Header/main.js";
+    script.async = true;
+
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+
+      <HomeBanner />
+      <ThreeColumn />
+      <Carousel />
+      <Team />
+      <Footer />
     </div>
   );
 }
