@@ -1,32 +1,32 @@
 {
     "teamItems": [
         {
-            "img": "/home/team/Blog image.png",
+            "img": "/Home/team/Blog image.png",
             "position": "Managing Director",
             "name": "Kym Williams"
         },
         {
-            "img": "/home/team/Blog image-1.png",
+            "img": "/Home/team/Blog image-1.png",
             "position": "Associate",
             "name": "Angus Mitchell"
         },
         {
-            "img": "/home/team/Blog image-2.png",
+            "img": "/Home/team/Blog image-2.png",
             "position": "Associate",
             "name": "Anita Payne"
         },
         {
-            "img": "/home/team/Blog image-3.png",
+            "img": "/Home/team/Blog image-3.png",
             "position": "Managing Director",
             "name": "Kym Williams"
         },
         {
-            "img": "/home/team/Blog image-4.png",
+            "img": "/Home/team/Blog image-4.png",
             "position": "Associate",
             "name": "Angus Mitchell"
         },
         {
-            "img": "/home/team/Blog image-5.png",
+            "img": "/Home/team/Blog image-5.png",
             "position": "Associate",
             "name": "Anita Payne"
         }
