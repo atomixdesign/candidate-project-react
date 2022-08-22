@@ -3,8 +3,7 @@ import "./home-banner.scss";
 import data from "../../Data/banner.json";
 
 function HomeBanner() {
-  const imgsrc = "/home/banner/Banner background.png";
-  const downsrc = "/home/banner/Down button.svg";
+  const downsrc = "/Home/banner/Down button.svg";
   return (
     <div>
       <img className="gfg" src={data.bannerImg} />
