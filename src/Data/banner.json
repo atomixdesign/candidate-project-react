@@ -1,4 +1,4 @@
 {
-    "bannerImg": "/home/banner/Banner background.png",
+    "bannerImg": "./home/banner/Banner background.png",
     "bannerText": "The ultimate atomix starter theme to help your business grow faster!"
 }
